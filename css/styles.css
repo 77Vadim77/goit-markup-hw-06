@@ -116,7 +116,11 @@ button {
 }
 
 
-.header-line-link::after {
+.header-link.current {
+    color: var(--color-ocean);
+}
+
+.current::after {
     content: "";
     display: block;
     width: 100%;
